@@ -1,0 +1,27 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+}
+.Hello {
+  padding-left: 500px;
+  /* background-color: yellow; */
+}
+.HelloCenter {
+  text-align: center;
+}
+.FirstButton {
+  width: 100px;
+  margin-top: 50px;
+}
+.InnerDetails {
+  display: inline-block;
+  /* background-color: pink; */
+  /* margin-top: 180px; */
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 400px; */
+}
