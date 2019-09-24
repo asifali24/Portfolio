@@ -6,8 +6,9 @@
   height: 40vmin;
 }
 .Hello {
-  padding-left: 500px;
-  /* background-color: yellow; */
+  /* padding-left: 500px; */
+  background-color: white;
+  /* padding-top: 250px; */
 }
 .HelloCenter {
   text-align: center;
@@ -17,7 +18,7 @@
   margin-top: 50px;
 }
 .InnerDetails {
-  display: inline-block;
+  /* display: inline-block; */
   /* background-color: pink; */
   /* margin-top: 180px; */
   width: 400px;

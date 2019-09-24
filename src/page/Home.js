@@ -39,7 +39,7 @@ export default class Home extends Component {
               <div
                 class="col-xl-6 Hello "
                 style={{
-                  paddingLeft: "15%",
+                  // paddingLeft: "15%",
                   // paddingRight: "25%",
                   paddingTop: "10%"
                 }}
