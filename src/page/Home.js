@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "../App.css";
 import first from "../img/1.png";
 import second from "../img/2.png";
+import Header from "../Component/Header";
+import Footer from "../Component/Footer";
 
 export default class Home extends Component {
   render() {
@@ -9,38 +11,23 @@ export default class Home extends Component {
       <div>
         <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-12" style={{ margin: 0, padding: 0 }}>
-              <nav className="navbar navbar-expand-sm bg-primary navbar-dark">
-                <ul className="navbar-nav">
-                  <li className="nav-item active">
-                    <a className="nav-link" href="#">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item active">
-                    <a className="nav-link" href="#">
-                      Projects
-                    </a>
-                  </li>
-                  <li className="nav-item active">
-                    <a className="nav-link" href="#">
-                      Contacts
-                    </a>
-                  </li>
-                  <li className="nav-item active">
-                    <a className="nav-link" href="#">
-                      GitHub
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+            <div
+              className="col-xl-12"
+              style={{
+                margin: 0,
+                padding: 0,
+                position: "sticky",
+                top: 0,
+                height: "60px",
+                zIndex: "1"
+              }}
+            >
+              <Header />
             </div>
             <div className="col-sm-12 row" style={{ margin: 0, padding: 0 }}>
               <div
                 class="col-xl-6 Hello "
                 style={{
-                  // paddingLeft: "15%",
-                  // paddingRight: "25%",
                   paddingTop: "10%"
                 }}
               >
@@ -94,7 +81,45 @@ export default class Home extends Component {
               <div className="col-xl-6 row">
                 <img src={second} width="100%" />
               </div>
-              <div className="col-xl-6 row">dfvbcvcvxcx</div>
+              <div className="col-xl-6 row" style={{ textAlign: "left" }}>
+                <div
+                  style={{
+                    fontSize: "35px",
+                    fontWeight: "bold",
+                    marginTop: "100px",
+                    marginLeft: "50px",
+                    // backgroundColor: "red",
+                    height: "170px",
+                    width: "500px"
+                  }}
+                >
+                  <div>LET'S</div>
+                  <div>INTRODUCE ABOUT</div>
+                  <div>MYSELF</div>
+                </div>
+                <div
+                  style={{
+                    marginLeft: "50px",
+                    width: "500px",
+                    fontSize: "30px",
+                    textAlign: "left",
+                    height: "400px"
+                  }}
+                >
+                  dfghjkjiuytresfcghh resdtghijok;liuyftgc oiuytresdfguiu
+                  srdyuyiuuytdxcf dfghjkjiuytresfcghh resdtghijok;liuyftgc
+                  oiuytresdfguiu srdyuyiuuytdxcf dfghjkjiuytresfcghh
+                  resdtghijok;liuyftgc oiuytresdfguiu srdyuyiuuytdxcf
+                  dfghjkjiuytresfcghh resdtghijok;liuyftgc oiuytresdfguiu
+                  srdyuyiuuytdxcf
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-xl-12 row"
+              // style={{ marginLeft: "auto", marginRight: "auto" }}
+            >
+              <Footer />
             </div>
           </div>
         </div>
