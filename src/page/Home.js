@@ -79,12 +79,12 @@ export default class Home extends Component {
                 </div>
               </div>
               <div class="col-xl-6 Hello">
-                <img src={first} />
+                <img src={first} alt={"Home"} />
               </div>
             </div>
             <div className="col-xl-12 row">
               <div className="col-xl-6 row">
-                <img src={second} width="100%" />
+                <img src={second} alt={"Home2"} width="100%" />
               </div>
               <div className="col-xl-6 row" style={{ textAlign: "left" }}>
                 <div
