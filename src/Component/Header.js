@@ -57,6 +57,7 @@ export default class Header extends Component {
     return (
       <div style={{ position: "-webkit-sticky", position: "sticky", top: 0 }}>
         <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+          {/* <img src={Image2} height="60px"/> */}
           <a
             className="navbar-brand"
             href="#"
@@ -75,7 +76,7 @@ export default class Header extends Component {
           <div
             className="collapse navbar-collapse"
             id="collapsibleNavbar"
-            style={{ marginLeft: "46%" }}
+            style={{ marginLeft: "40%" }}
           >
             <ul className="navbar-nav">
               <li
@@ -100,7 +101,7 @@ export default class Header extends Component {
                   textAlign: "center"
                 }}
               >
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/project">
                   Project's
                 </a>
               </li>
@@ -113,7 +114,7 @@ export default class Header extends Component {
                   textAlign: "center"
                 }}
               >
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://github.com/asifali24">
                   github
                 </a>
               </li>
@@ -126,7 +127,20 @@ export default class Header extends Component {
                   textAlign: "center"
                 }}
               >
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="https://gitlab.com/asifali24">
+                  gitlab
+                </a>
+              </li>
+              <li
+                className="nav-item"
+                style={{
+                  width: "100px",
+                  fontSize: "20px",
+                  fontWeight: "400",
+                  textAlign: "center"
+                }}
+              >
+                <a className="nav-link" href="/about">
                   About
                 </a>
               </li>

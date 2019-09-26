@@ -60,16 +60,21 @@ export default class Home extends Component {
                     <button
                       type="button"
                       className="btn btn-primary FirstButton"
+                      style={{fontSize:"25px", width:"150px", fontWeight:"600"}}
                     >
                       Hire Me
                     </button>
                     <div style={{ width: "40px" }}></div>
+                    <a href="https://drive.google.com/file/d/1ImnTY7fdVtzDpgCbY2b3F3cu_73GapFu/view?usp=sharing">
                     <button
                       type="button"
                       className="btn btn-primary FirstButton"
+                      style={{fontSize:"25px", width:"150px", fontWeight:"600"}}
+                      onClick="https://drive.google.com/drive/u/0/my-drive"
                     >
                       Get CV
                     </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -90,7 +95,7 @@ export default class Home extends Component {
                     marginLeft: "50px",
                     // backgroundColor: "red",
                     height: "170px",
-                    width: "500px"
+                    width: "700px"
                   }}
                 >
                   <div>LET'S</div>
@@ -103,15 +108,12 @@ export default class Home extends Component {
                     width: "500px",
                     fontSize: "30px",
                     textAlign: "left",
-                    height: "400px"
+                    height: "500px"
                   }}
                 >
-                  dfghjkjiuytresfcghh resdtghijok;liuyftgc oiuytresdfguiu
-                  srdyuyiuuytdxcf dfghjkjiuytresfcghh resdtghijok;liuyftgc
-                  oiuytresdfguiu srdyuyiuuytdxcf dfghjkjiuytresfcghh
-                  resdtghijok;liuyftgc oiuytresdfguiu srdyuyiuuytdxcf
-                  dfghjkjiuytresfcghh resdtghijok;liuyftgc oiuytresdfguiu
-                  srdyuyiuuytdxcf
+                  My name is Asif Ali, I am from Kharagpur, WestBengal
+                  completed my B.Tech in 2019 from "Dr. A.P.J. Abdul Kalam Technical University",
+                  currently staying in Noida 
                 </div>
               </div>
             </div>
@@ -119,7 +121,10 @@ export default class Home extends Component {
               className="col-xl-12 row"
               // style={{ marginLeft: "auto", marginRight: "auto" }}
             >
+              <div style={{marginTop:"100px" , marginLeft:"auto",marginRight:"auto"}}>
               <Footer />
+              </div>
+              
             </div>
           </div>
         </div>

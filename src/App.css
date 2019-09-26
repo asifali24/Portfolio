@@ -39,3 +39,51 @@
   background: #007bb5;
   color: white;
 }
+
+
+
+.body {
+  background: #f1f1f1;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+.box-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.box {
+  padding: 30px;
+  margin: 20px;
+  background: white;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  transition: 0.2s all;
+  text-align: center;
+  padding-top: 40px;
+  padding-top: auto;
+  padding-bottom: auto;
+  font-size: 24px;
+  color: #ff0042;
+  /* background-color: #666666; */
+}
+.box-wrap:hover .box {
+  filter: blur(3px);
+  opacity: 0.3;
+  transform: scale(1);
+  box-shadow: none;
+}
+.box-wrap:hover .box:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+}
+
