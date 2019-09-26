@@ -87,7 +87,7 @@ export default class Header extends Component {
                   textAlign: "center"
                 }}
               >
-                <a className="nav-link" href="/about">
+                <a className="nav-link" href="/aboutAsif">
                   About
                 </a>
               </li>

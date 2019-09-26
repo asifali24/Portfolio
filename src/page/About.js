@@ -23,7 +23,7 @@ export default class About extends Component {
             </div>
             <div className="col-sm-12 row" style={{ margin: 0, padding: 0 }}>
             <div className="box-wrap col-sm-12  col-xl-12 col-lg-10 col-md-12 col-12 row">
-
+<div style={{fontSize:"60px"}}>Comming soon .........</div>
             </div>                
             </div>
             </div>

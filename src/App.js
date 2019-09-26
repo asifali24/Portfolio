@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/project" component={Project} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/aboutAsif" component={About} />
           <Route path='/external' component={() => { window.location = 'https://domain.extension/external-without-params'; return null;} }/>
           
           {/* <Route path='/external' component={() => { window.location = 'https://domain.extension/external-without-params'; return null;} }/> */}
