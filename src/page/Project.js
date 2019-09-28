@@ -67,7 +67,10 @@ export default class Project extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="box OneLine">
+                <div
+                  className="box OneLine"
+                  style={{ paddingLeft: "2%", paddingRight: "2%" }}
+                >
                   <div
                     style={{
                       fontSize: "35px",
